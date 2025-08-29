@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student News Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>Campus News</h2>
+    <ul>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Latest News</a></li>
+      <li><a href="#">Categories</a></li>
+      <li><a href="#">Saved Articles</a></li>
+      <li><a href="#">Profile</a></li>
+      <li><a href="login.html">Logout</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Dashboard -->
+  <main class="main-content">
+    <header>
+      <h1>Welcome Back, Student 👋</h1>
+      <p>Here’s what’s happening on campus today:</p>
+    </header>
+
+    <!-- Dashboard cards -->
+    <section class="cards">
+      <div class="card">
+        <h3>New Articles</h3>
+        <p>8 Today</p>
+      </div>
+      <div class="card">
+        <h3>Trending</h3>
+        <p>3 Hot Topics</p>
+      </div>
+      <div class="card">
+        <h3>Saved</h3>
+        <p>5 Articles</p>
+      </div>
+    </section>
+
+    <!-- News Table -->
+    <section class="table-section">
+      <h2>Recent News</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Headline</th>
+            <th>Date</th>
+            <th>Category</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>University Launches New Tech Lab</td>
+            <td>Aug 29, 2025</td>
+            <td>Technology</td>
+            <td><span class="status trending">Trending</span></td>
+          </tr>
+          <tr>
+            <td>Sports Team Wins Regional Cup</td>
+            <td>Aug 28, 2025</td>
+            <td>Sports</td>
+            <td><span class="status featured">Featured</span></td>
+          </tr>
+          <tr>
+            <td>Freshers’ Orientation 2025</td>
+            <td>Aug 27, 2025</td>
+            <td>Campus Life</td>
+            <td><span class="status normal">New</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
